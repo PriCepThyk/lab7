@@ -1,0 +1,46 @@
+.mysubform input {
+    display:block;
+    font-size:14px;
+    font-family:"Helvetica", "Arial", "Tahoma", "Geneva", sans-serif;
+}
+
+.mysubform p {color:#fff; text-align:center;}
+.form_container {position:relative;}
+.mysubform {
+    padding:10px; 
+    margin:10px; 
+    background:#d19628; 
+    border:1px solid #ccc;
+    position:absolute;
+}
+.mysubform input[type="text"] {
+    padding:7px 5px; 
+    margin-bottom:10px; 
+    background:#d4a857;
+    color:#fff;
+    width:250px;
+    border:0;
+    border-radius:3px;
+}
+.mysubform input[type="submit"] {
+    padding:2px;
+    background:rgba(0, 0, 0, 0);
+    color:#FFFC00; border:2px solid #FFFC00;
+    border-radius:5px;
+    margin:10px;
+    width:200px;
+}
+
+::-webkit-input-placeholder { 
+   color:    #fff;
+    opacity: 1 !important;
+}
+:-moz-placeholder { 
+   color:    #fff;
+}
+::-moz-placeholder { 
+   color:    #fff;
+}
+:-ms-input-placeholder {
+   color:    #fff;
+}
